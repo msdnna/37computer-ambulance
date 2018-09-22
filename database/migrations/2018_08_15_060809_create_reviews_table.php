@@ -17,6 +17,7 @@ class CreateReviewsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->text('review');
+            $table->boolean('moderated');
             $table->timestamps();
         });
     }

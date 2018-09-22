@@ -1,23 +1,6 @@
 <template id="services-page">
     <main>
         <div class="container">
-            <!--<section>
-                <div style="height:100px"></div>
-                <h3 class="h3 text-center mb-5">Услуги</h3>
-                <div class="row wow fadeIn mb-5 mt-2">
-                    <div class="col-lg-6 col-md-5 px-4" v-for="(page) in filteredServices">
-                        <div class="row">
-                            <div class="col-1 mr-3">
-                                <i class="fa fa-check-square fa-2x indigo-text"></i>
-                            </div>
-                            <div class="col-10">
-                                <h5 class="feature-title">{{ page.title }}</h5>
-                                <p class="grey-text">{{ page.description }}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>-->
             <section>
                 <h2 class="my-4 h3 text-center con-page-title">УСЛУГИ</h2>
                 <div class="row features-small wow fadeIn">
@@ -90,7 +73,7 @@
                         <div class="row">
                             <div class="col-10 mb-2 pl-3 con-text">
                                 <h5 class="feature-title font-bold mb-1 con-title con-title-row-2">УСТАНОВКА, НАСТРОЙКА И ОБНОВЛЕНИЕ ПРОГРАММ</h5>
-                                <p class="grey-text mt-2 con-desc con-desc-row-2">Установка программного обеспечения на Ваше устройство, настройка и обновление программного обеспечения.</p>
+                                <p class="grey-text mt-2 con-desc con-desc-row-2">Установка программного обеспечения на Ваше устройство, настройка и обновление ПО.</p>
                                 <h5 class="feature-title font-bold con-price con-price-row-2">От 270 руб.</h5>
                             </div>
                             <div class="col-2 mr-1 con-icon-hide blue-background"></div>
