@@ -80,7 +80,7 @@
             return { reviews: '', review: { name: '', review: '' }};
         },
         created: function() {
-            let uri = 'http://37computer-ambulance.ru/reviews';
+            let uri = 'https://37computer-ambulance.ru/reviews';
             Axios.get(uri).then((response) => {
                 this.reviews = response.data
             });
@@ -99,7 +99,7 @@
         },
         methods: {
             addReview: function() {
-                let uri = 'http://37computer-ambulance.ru/reviews';
+                let uri = 'https://37computer-ambulance.ru/reviews';
                 Axios.post(uri, this.review).then((response) => {
                     this.$router.push({ name: 'ReviewsPage' })
                 })

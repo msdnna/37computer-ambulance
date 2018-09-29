@@ -77,7 +77,7 @@ body {
     box-shadow: 0 .625rem 1.25rem -.625rem #c81414;
 }
 .h1-custom-ca {
-    font-family: "Roboto Light";
+    font-family: "Roboto Light", sans-serif;
 }
 .btn-custom-ca {
     width: 15.625rem;
