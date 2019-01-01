@@ -11,7 +11,7 @@
                         <router-link class="btn btn-custom-ca aqua-gradient" v-bind:to="{ name: 'ContactsPage' }">Как с нами связаться</router-link>
                     </div>
                     <div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.75s">
-                        <img src="https://37computer-ambulance.ru/img/ca_banner.png" alt="" class="img-fluid">
+                        <img src="http://37computer-ambulance.local/img/ca_banner.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <navigation-component></navigation-component>
-        <transition name="slide-fade">
+        <transition name="fade">
             <router-view></router-view>
         </transition>
     </div>

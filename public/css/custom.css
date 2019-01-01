@@ -1,4 +1,7 @@
 /* This file created and customized by msdnna. All rights reserved. */
+html {
+    overflow-x: hidden;
+}
 body {
     background-color: #fafafa;
 }

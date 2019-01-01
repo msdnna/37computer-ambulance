@@ -32,3 +32,6 @@ Route::get('/show/reviews', function() {
 Route::get('/show/contacts', function() {
     return view('vueApp');
 });
+//Route::get('/', function() {
+//    return view('reconstruction');
+//});
